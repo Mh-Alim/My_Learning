@@ -17,6 +17,10 @@ import Grid from "./css_components/grid/Grid.jsx";
 import Parent from "./React-Hitesh/04_UseCallback/Parent.js";
 import InputBox from "./React-Hitesh/customHooks/InputBox.jsx";
 import UseState3 from "./React-Hitesh/03_UseState/UseState3.jsx";
+import ContextProvider from "./React-Hitesh/07_UseContext/ContextProvider.jsx";
+import Login from "./React-Hitesh/07_UseContext/Login.jsx";
+import Profile from "./React-Hitesh/07_UseContext/Profile.jsx";
+import DummyApp from "./React-Hitesh/07.2_Todo/DummyApp.jsx";
 
 function App() {
   return (
@@ -37,8 +41,15 @@ function App() {
       {/* <UseState3 /> */}
       {/* <DoughnutChar /> */}
       {/* <Parent /> */}
-      <InputBox />
-    </div>
+        {/* <InputBox /> */}
+        
+
+        {/* <Login />
+        <Profile /> */}
+
+      //todo
+      <DummyApp />
+      </div>
   );
 }
 
